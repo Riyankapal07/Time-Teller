@@ -1,0 +1,84 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(226, 229, 229);
+  }
+  
+  body {
+    width: 400px;
+    height: 450px;
+  }
+  
+  .container {
+    background-color: rgba(0,128,128,0.4);/* 46,46,59,255*/
+  }
+  #algo-text{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    color:rgb(0,0,128,1.0)
+  }
+  
+  #title-text{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #sub-title-text{
+    color: #5a5a5f;
+    text-align: center;
+    font-size: 23px;
+  }
+#Avg-time-complexity-text,
+#best-time-complexity-text,
+#Worst-time-complexity-text{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.button-container{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-image: linear-gradient(-45deg, #f310a7, #12ceb5);
+    border: none;
+    color: #c5f009;
+    text-align: center;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+    vertical-align: middle
+  }
+    
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+  }
+    
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+  }
+    
+  .button:hover span {
+    padding-right: 25px;
+  }
+    
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
